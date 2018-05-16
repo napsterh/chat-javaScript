@@ -17,7 +17,21 @@
       <nav class="navbar navbar-light bg-info">
         <a class ="navbar-brand mx-auto" href="/">JavaScript FullStack Chat</a>
       </nav>
-      <div class="container">
+
+      <div class="card col-md-4 mt-5 mx-auto" id="nickWrap">
+        <div class="card-header">
+          <h3>Ingrese su usuario:</h3>
+        </div>
+        <p  id="nickError"></p>
+        <div class="card-body">
+          <form id="nickForm">
+            <input type="text" id="nickname" class="form-control">
+            <input type="submit" class="btn btn-primary bnt-block mt-2">
+          </form>
+        </div>
+      </div>
+
+      <div class="container" id="contentWrap">
         <div class="col-md-6 mt-4">
           <div class="card">
             <div class="card-header">
